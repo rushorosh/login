@@ -24,7 +24,7 @@ final class MainViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print("Sign in tap")
         guard let successVc = segue.destination as? SuccessViewController else { return }
-        
+
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
